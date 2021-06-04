@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* navtop */
+#navtop{
+    background-color: #ffd86e;
+    height: 65px;
+}
+.topcontact{
+    color: #fff;
+    padding-top: 1em;
+    padding-left: 3em;
+    font-size: 20px;
+    filter: drop-shadow(0px 1px 2px black);
+}
+/* navbar */
+#navbar{
+    position: relative;
+    height: 48px;
+    width: 100%;
+    background-color: rgb(209, 50, 40);
+    border-bottom: #891109 solid 7px;
+    z-index: 1000;
+    min-height: 55px;
+}
+.navi{
+    display: flex;
+    position: absolute;
+    list-style: none;
+    justify-content: space-around;
+    left: 80px;
+    margin-top: 15px;
+}
+.navi a{
+    text-decoration: none;
+    padding: 16px;
+    color: #fff;
+}
+.navi a:hover{
+    color: rgb(253, 213, 83);
+}
+.logo{
+    position: absolute;
+    left: 38em;
+    height: 135px;
+    width: 135px;
+    margin-top: -49px;
+
+}
+/* home */
+#home1{
+    height: 32em;
+    background-color: #ffd86e ;
+}
+.home1pic{
+    height: 32em;
+    width: 38em;
+    margin-left: 2em;
+}
+/* home2 */
+#home2{
+
+}
+#home2 h1{
+    font-family: 'Elsie',cursive;
+    font-weight: lighter;
+    margin-top: 2em;
+    margin-left: 8em;
+    font-size: 40px;
+    color: #080808;
+}
+#redbox{
+    box-shadow: 0 2px 3px rgb(0 1 1 / 20%);
+    height: 544px;
+    width: 32em;
+    background-color: rgb(209, 50, 40);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 3em;
+    margin-left: 7em;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#logoredbox{
+    height: 4em;
+    width: 4em;
+    top: -10em;
+    left: 9em;
+    position: relative;
+}
+#directorname{
+    background:white;
+    color: #102035;
+    clip-path: polygon(0 0, 0 0, 73em 9em, 0 9em);
+    padding: 1em;
+    padding-left: 2em;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#directorname h2{
+    font-weight: lighter;
+    font-family: 'Elsie',cursive;
+    font-style: italic;
+    margin-top: 64px;
+}
+#directorname h3{
+    font-style: italic;
+    margin-top: -66px;
+    font-weight: lighter;
+}
+#samosabgimg1{
+    position:absolute;
+    height: 458px;
+    margin-left: 35em;
+    margin-top: -33em;
+}
+#fgsamosa1{
+    height: 17em;
+    width: 17em;
+    position: absolute;
+    margin-left: 49em;
+    margin-top: -27em;
+}
+#fgsamosa1:hover{
+    display: contents;
+}
+/* home3 */
+#home3{
+    height: 43em;
+    background-color: #252525;
+}
+#home3 h4{
+    font-size: 55px;
+    padding-left: 9em;
+    padding-top: 1.5em;
+    font-family: 'Kalam', cursive;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+}
+#logohome3{
+    height: 5em;
+    width: 5em;
+    position: absolute;
+    left: 52em;
+    margin-top: -7.5em;
+}
+#home3 p{
+    font-style: italic;
+    font-size: 20px;
+    color: whitesmoke;
+    margin-left: 20em;
+}
+#samosabgimg2{
+    height: 430px;
+    margin-left: 20em;
+    margin-top: 2em;
+}
+#fgsamosa{
+    height: 16em;
+    width: 16em;
+    position: absolute;
+    margin-left: -29em;
+    margin-top: 8em;
+}
+#fgsamosa:hover{
+    display: contents;
+}
+/* home4*/
+#home4{
+}
+#home4 h5{
+    font-size: 38px;
+    font-family: 'Elsie';
+    margin-left: 12em;
+    margin-top: 2em;
+    font-weight: lighter;
+    padding-bottom: 2em;
+}
+.review{
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    padding: 4em;
+    margin-left: 10em;
+}
+.propic{
+    position: absolute;
+    margin-top: -15em;
+    margin-left: 4em;
+}
+#home4 h6{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Elsie',cursive;
+    margin-left: 5em;
+    margin-top: -53px;
+}
+#home4 hr{
+    background-color: brown;
+    height: 4px;
+}
+/* footer */
+footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 18em;
+    background-color: #bb2e25;
+}
+footer h1{
+    color: white;
+    font-weight: lighter;
+    padding: 25px;
+}
+footer h2{
+    color: white;
+    font-weight: lighter;
+    padding: 20px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+footer a:hover{
+    color: rgb(253, 213, 83);
+}
+footer strong{
+    color: white;
+    padding-top: 2em;
+}
